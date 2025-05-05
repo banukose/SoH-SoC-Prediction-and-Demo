@@ -4,7 +4,6 @@ import numpy as np
 import tensorflow.keras.models as keras_models
 from flask_cors import CORS  
 
-# Flask uygulaması
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000"])  
 
