@@ -17,8 +17,8 @@ battery-health-prediction/
 │   └── streamlit_app.py          # Streamlit arayüzü
 │   └── App.js                    # React arayüzü
 │
-├── app/                          # Flask API uygulaması
-│   ├── main.py
+├── api/                          # Flask API uygulaması
+│   ├── app.py
 │   └── ...
 │
 ├── Dockerfile                    # Docker yapılandırması
