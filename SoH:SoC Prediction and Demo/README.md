@@ -59,13 +59,20 @@ cd demo
 streamlit run streamlit_app.py
 ```
 
-### 3. Flask API'yi Başlat (İsteğe bağlı)
+### 3. Streamlit Arayüzünü Başlat
+```
+cd demo
+npm install
+npm start
+```
+
+### 4. Flask API'yi Başlat (İsteğe bağlı)
 ```
 cd app
 python main.py
 ```
 
-### 4. Docker ile çalıştır
+### 5. Docker ile çalıştır
 ```
 docker build -t battery-app .
 docker run -p 8501:8501 battery-app
