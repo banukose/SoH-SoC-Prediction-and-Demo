@@ -1,5 +1,5 @@
 
-# 🔋 Battery Health Prediction
+# 🔋 Battery Prediction(SoH and SoC)
 
 Bu proje, lityum-iyon pillerin sağlık durumunu (SOH - State of Health) ve şarj durumunu (SOC - State of Charge) tahmin etmeye yönelik bir makine öğrenimi uygulamasıdır.
 
@@ -15,6 +15,7 @@ battery-health-prediction/
 │
 ├── demo/
 │   └── streamlit_app.py          # Streamlit arayüzü
+│   └── App.js                    # React arayüzü
 │
 ├── app/                          # Flask API uygulaması
 │   ├── main.py
@@ -34,6 +35,7 @@ battery-health-prediction/
 - Streamlit
 - Flask
 - Docker
+- React
 
 ## 🧪 Özellikler
 
@@ -41,6 +43,7 @@ battery-health-prediction/
 - 📈 SOC tahmini (LSTM ile)
 - 🌐 Flask REST API
 - 🖥️ Streamlit tabanlı demo arayüzü
+- 🖥️ React tabanlı demo arayüzü
 - 🐳 Docker uyumluluğu
 
 ## 💡 Kullanım
@@ -79,13 +82,8 @@ docker run -p 8501:8501 battery-app
 
 ## 📎 Notlar
 
-- Proje eğitim ve test verilerini `data/processed` klasörüne koymalısınız.
 - Model dosyaları `models/` altında yer alır.
 - Uygulama hem lokal hem Docker ortamında çalışacak şekilde yapılandırılmıştır.
-
-## 🤝 Katkı
-
-Katkıda bulunmak isterseniz, pull request gönderebilir veya issue oluşturabilirsiniz.
 
 ---
 
