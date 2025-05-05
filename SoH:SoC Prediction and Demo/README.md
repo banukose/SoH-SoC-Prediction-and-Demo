@@ -68,8 +68,8 @@ npm start
 
 ### 4. Flask API'yi Başlat (İsteğe bağlı)
 ```
-cd app
-python main.py
+cd api
+python app.py
 ```
 
 ### 5. Docker ile çalıştır
