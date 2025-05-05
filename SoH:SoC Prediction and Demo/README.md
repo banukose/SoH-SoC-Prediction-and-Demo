@@ -6,7 +6,7 @@ Bu proje, lityum-iyon pillerin sağlık durumunu (SOH - State of Health) ve şar
 ## 🚀 Proje Yapısı
 
 ```
-battery-health-prediction/
+SoH:SoC Prediction and Demo/
 │
 ├── data/
 │   └── processed/                # İşlenmiş veriler (CSV dosyaları)
@@ -21,8 +21,9 @@ battery-health-prediction/
 │   ├── app.py
 │   └── ...
 │
-├── Dockerfile                    # Docker yapılandırması
-├── docker-compose.yml            # (Opsiyonel) Genişletilmiş yapılandırma
+├──docker/
+  └──  Dockerfile                    # Docker yapılandırması
+  └── docker-compose.yml             # (Opsiyonel) Genişletilmiş yapılandırma
 │
 └── README.md
 ```
